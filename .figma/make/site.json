@@ -1,0 +1,10 @@
+{
+  "description": "Discover and stream your favorite music effortlessly with a user-friendly interface designed for new users, featuring personalized recommendations and easy navigation.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

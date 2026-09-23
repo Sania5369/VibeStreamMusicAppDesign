@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=DM+Sans:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+}
+
+:root {
+  --background: #0e1018;
+  --foreground: #f0ece4;
+  --card: #171923;
+  --card-foreground: #e8e2d8;
+  --primary: #e8836a;
+  --primary-foreground: #ffffff;
+  --secondary: #1e2030;
+  --secondary-foreground: #c8b8a2;
+  --muted: #181b28;
+  --muted-foreground: #7a7060;
+  --accent: #f5a84e;
+  --accent-foreground: #1a1208;
+  --border: rgba(232, 131, 106, 0.12);
+  --ring: #e8836a;
+  --radius: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
